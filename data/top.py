@@ -3,8 +3,8 @@
 """
 # Copyright 2020 Sarfraaz Ahmed. All rights reserved.
 
-#from lines import get_lines
-from lines_gen import get_lines
+from lines import get_lines
+#from lines_gen import get_lines
 
 from sys import getsizeof
 
