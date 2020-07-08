@@ -1,0 +1,14 @@
+date,city,showroom,model,sales
+Jan-2010,Bangalore,MyCar,Santro,2319
+Jan-2010,Bangalore,Zoom,Santro,342
+Jan-2010,Bangalore,Zoom,Kwid,273
+Jan-2010,Mumbai,NewCar,Kwid,3829
+Jan-2010,Mumbai,Fast,Duster,883
+Feb-2010,Bangalore,MyCar,Kwid,1282
+Feb-2010,Bangalore,Zoom,Kwid,646
+Feb-2010,Mumbai,NewCar,Duster,2930
+Feb-2010,Mumbai,Fast,Duster,638
+Mar-2010,Bangalore,MyCar,Duster,1728
+Mar-2010,Bangalore,Zoom,Santro,53
+Mar-2010,Mumbai,NewCar,Santro,2030
+Mar-2010,Mumbai,Fast,Kwid,73
