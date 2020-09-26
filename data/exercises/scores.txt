@@ -1,0 +1,10 @@
+Aamir Khan,45904
+Akshay Khanna,48188
+Anil Kapoor,32171
+Raj Kapoor,40922
+Rajesh Khanna,34569
+Rishi Kapoor,36613
+Salman Khan,50154
+Shah Rukh Khan,55445
+Shashi Kapoor,28874
+Vinod Khanna,38974
