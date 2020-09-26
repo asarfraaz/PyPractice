@@ -1,0 +1,10 @@
+Shah Rukh Khan,55000
+Salman Khan,50000
+Akshay Khanna,48000
+Aamir Khan,45000
+Raj Kapoor,40000
+Vinod Khanna,38000
+Rishi Kapoor,36000
+Rajesh Khanna,34000
+Anil Kapoor,32000
+Shashi Kapoor,28000
