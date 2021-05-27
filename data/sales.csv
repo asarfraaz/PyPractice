@@ -1,0 +1,13 @@
+prid,category,type,quantity,price
+"6-01",Food,online,1,25.5
+"6-02",Health,online,3,12.4
+"6-05",Food,online,2,66.5
+"6-07",Electronic,store,1,90.3
+"7-03",Health,store,2,15.8
+"7-07",Electronic,store,5,70.3
+"7-10",Food,store,5,36
+"8-04",Travel,store,5,9.55
+"8-07",Electronic,store,5,40
+"8-09",Travel,online,2,25.65
+"8-12",Food,store,2,42
+"8-14",Travel,store,4,32.55
