@@ -21,9 +21,18 @@ class Date:
     def __str__(self):
         '''
             Invoked when user passes Date object as argument to "print()" function
+            __str__ method takes higher precedence than __repr__
             This should return a string
         '''
         return f"Str: {self.ddd}-{self.mmm}-{self.yyy}"        
+    
+    def __repr__(self):
+        '''
+            Invoked when user passes Date object as argument to "repr()" function
+            This should be used to display the internal representation of the object
+            This should also return a string
+        '''
+        return f"Repr: Date({self.ddd}, {self.mmm}, {self.yyy})"    
 
     def display(self, fmt):
         '''
@@ -46,5 +55,6 @@ print(repr(start))
 end = Date(31, 12, 2021)
 end.display("txt")
 print(end)
+print(repr(end)) # Simlar to typing ```>>> end ``` on Python Shell
 
 # Copyright 2021 Sarfraaz Ahmed. All rights reserved.
