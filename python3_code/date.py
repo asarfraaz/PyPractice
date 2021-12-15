@@ -13,6 +13,15 @@ class Date:
     mmm = 1
     yyy = 1970
 
+    def set_date(self, d, m, y):
+        '''
+            A method of Date class that takes 3 parameters
+            Set the 3 parameters as the 3 attributes of the Date object
+        '''
+        self.ddd = d
+        self.mmm = m
+        self.yyy = y
+
     def display(self, fmt):
         '''
             A method of Date class that takes "fmt" as a parameter
@@ -30,9 +39,7 @@ start = Date()
 start.display("html")
 
 end = Date()
-end.ddd = 31
-end.mmm = 12
-end.yyy = 2021
-end.display("xml")
+end.set_date(31, 12, 2021)
+end.display("txt")
 
 # Copyright 2021 Sarfraaz Ahmed. All rights reserved.
