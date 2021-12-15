@@ -17,6 +17,13 @@ class Date:
         self.ddd = d
         self.mmm = m
         self.yyy = y
+        
+    def __str__(self):
+        '''
+            Invoked when user passes Date object as argument to "print()" function
+            This should return a string
+        '''
+        return f"Str: {self.ddd}-{self.mmm}-{self.yyy}"        
 
     def display(self, fmt):
         '''
@@ -37,5 +44,6 @@ print(start)
 
 end = Date(31, 12, 2021)
 end.display("txt")
+print(end)
 
 # Copyright 2021 Sarfraaz Ahmed. All rights reserved.
