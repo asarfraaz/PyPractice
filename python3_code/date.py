@@ -34,6 +34,14 @@ class Date:
         '''
         return f"Repr: Date({self.ddd}, {self.mmm}, {self.yyy})"    
 
+    def __lt__(self, other):
+        '''
+            Comparison method for checking this object is less than the other
+            This should return a Boolean value
+            This is an incomplete implementation and shown only as dummy sample
+        '''
+        return self.ddd < other.ddd
+    
     def display(self, fmt):
         '''
             A method of Date class that takes "fmt" as a parameter
@@ -56,5 +64,7 @@ end = Date(31, 12, 2021)
 end.display("txt")
 print(end)
 print(repr(end)) # Simlar to typing ```>>> end ``` on Python Shell
+
+print(start < end)
 
 # Copyright 2021 Sarfraaz Ahmed. All rights reserved.
