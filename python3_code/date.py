@@ -13,14 +13,14 @@ class Date:
     mmm = 1
     yyy = 1970
 
-    def display(val):
+    def display(self):
         '''
             A method of Date class
             Prints ddd, mmm and yyy attributes of Date object
         '''
-        print(val.ddd)
-        print(val.mmm)
-        print(val.yyy)
+        print(self.ddd)
+        print(self.mmm)
+        print(self.yyy)
 
 ######################
 # Main or client code starts here
