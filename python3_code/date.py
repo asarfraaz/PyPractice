@@ -41,6 +41,7 @@ class Date:
 start = Date()
 start.display("html")
 print(start)
+print(repr(start))
 
 end = Date(31, 12, 2021)
 end.display("txt")
