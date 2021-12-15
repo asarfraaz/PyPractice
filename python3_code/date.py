@@ -13,26 +13,24 @@ class Date:
     mmm = 1
     yyy = 1970
 
+    def display(val):
+        '''
+            A method of Date class
+            Prints ddd, mmm and yyy attributes of Date object
+        '''
+        print(val.ddd)
+        print(val.mmm)
+        print(val.yyy)
+
 ######################
-
-# Below code is outside of class Date
-def display(val):
-    '''
-       A function that takes a Date object as input
-       Prints ddd, mmm and yyy attributes of Date class
-    '''
-    print(val.ddd)
-    print(val.mmm)
-    print(val.yyy)
-
 # Main or client code starts here
 start = Date()
-display(start)
+start.display()
 
 end = Date()
 end.ddd = 31
 end.mmm = 12
 end.yyy = 2021
-display(end)
+end.display()
 
 # Copyright 2021 Sarfraaz Ahmed. All rights reserved.
