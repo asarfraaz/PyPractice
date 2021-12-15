@@ -13,9 +13,9 @@ class Date:
     mmm = 1
     yyy = 1970
 
-    def set_date(self, d, m, y):
+    def __init__(self, d, m, y):
         '''
-            A method of Date class that takes 3 parameters
+            A constructor/initialiser of Date class that takes 3 parameters
             Set the 3 parameters as the 3 attributes of the Date object
         '''
         self.ddd = d
@@ -35,11 +35,10 @@ class Date:
 
 ######################
 # Main or client code starts here
-start = Date()
+start = Date(2, 12, 2021)
 start.display("html")
 
-end = Date()
-end.set_date(31, 12, 2021)
+end = Date(31, 12, 2021)
 end.display("txt")
 
 # Copyright 2021 Sarfraaz Ahmed. All rights reserved.
