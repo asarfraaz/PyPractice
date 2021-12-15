@@ -9,11 +9,7 @@ class Date:
     '''
         Represents a date with day,month and year attributes
     '''
-    ddd = 1
-    mmm = 1
-    yyy = 1970
-
-    def __init__(self, d, m, y):
+    def __init__(self, d=1, m=1, y=1970):
         '''
             A constructor/initialiser of Date class that takes 3 parameters
             Set the 3 parameters as the 3 attributes of the Date object
@@ -35,7 +31,7 @@ class Date:
 
 ######################
 # Main or client code starts here
-start = Date(2, 12, 2021)
+start = Date()
 start.display("html")
 
 end = Date(31, 12, 2021)
