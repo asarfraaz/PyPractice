@@ -33,6 +33,7 @@ class Date:
 # Main or client code starts here
 start = Date()
 start.display("html")
+print(start)
 
 end = Date(31, 12, 2021)
 end.display("txt")
